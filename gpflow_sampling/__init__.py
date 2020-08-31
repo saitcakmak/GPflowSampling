@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 __all__ = (
- 'utils',
- 'samplers',
+    "utils",
+    "samplers",
 )
 
 from gpflow_sampling import utils

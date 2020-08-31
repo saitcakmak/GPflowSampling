@@ -2,18 +2,16 @@
 # -*- coding: utf-8 -*-
 
 __all__ = (
-  'Sampler',
-  'CompositeSampler',
-  'BayesianLinearSampler',
-
-  'location_scale',
-  'finite_fourier',
-  'decoupled',
-
-  'LocationScaleSamplerGPR',
-  'LocationScaleSamplerSVGP',
-  'CacheLocationScaleSamplerGPR',
-  'CacheLocationScaleSamplerSVGP',
+    "Sampler",
+    "CompositeSampler",
+    "BayesianLinearSampler",
+    "location_scale",
+    "finite_fourier",
+    "decoupled",
+    "LocationScaleSamplerGPR",
+    "LocationScaleSamplerSVGP",
+    "CacheLocationScaleSamplerGPR",
+    "CacheLocationScaleSamplerSVGP",
 )
 
 from gpflow_sampling.samplers.base import *
